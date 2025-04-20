@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="https://media.licdn.com/dms/image/v2/D4E03AQHUzNT0DW-LbQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725134351441?e=1747267200&v=beta&t=0B0ilQ2AMli1I4jl-u2lMGeBkvxXgohtZKAK7CotrgM" alt="Akhlaque Nabi" width="800">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Akhlaque Nabi">Akhlaque Nabi</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:akhlaque.nabi@icloud.com" class="contact-link">akhlaque.nabi@icloud.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919135473003" class="contact-link">+91 91354 73003</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2004-09-23">Sept 23, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>LUCKNOW, INDIA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://discordapp.com/users/1093600117967306752" class="social-link">
+              <ion-icon name="logo-Discord"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/akhlaque_nabi?s=21" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://wa.me/9135473003" class="social-link">
+              <ion-icon name="logo-Whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/akhlaque-nabi-201a922a9?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3ByBvdFxoCSaaTqYYmH9DtVg%3D%3D" class="social-link">
+              <ion-icon name="logo-Linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.snapchat.com/add/iakhlaque.3?share_id=cVLtWw2OZx4&locale=en-US/" class="social-link">
+              <ion-icon name="logo-Snapchat"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/I.akhlaq_?fbclid=IwY2xjawI-qSdleHRuA2FlbQIxMAABHZbzYimjp-VHJLLGy1R3f1FE409vNaTXaxhVauSZTStRFjDxTx5s-_LItw_aem_-ojt4LcRhHEUeHWyzKSobA" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m an undergraduate Computer Science student currently pursuing a Bachelor in Technology from Integral University, Lucknow.
+          </p>
+
+          <p>
+            I have a keen interest in technology, problem-solving, and innovation. My passion lies in exploring new advancements in computer science and applying them to real-world challenges. I enjoy coding, developing software solutions, and continuously learning about emerging technologies. My goal is to enhance my skills and contribute to the ever-evolving tech industry.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+  <h3 class="h3 service-title">What I'm Doing</h3>
+
+  <ul class="service-list">
+
+    <li class="service-item">
+      <div class="service-item-content">
+        <div class="service-icon-box">
+          <img src="https://cdn.dribbble.com/users/2586550/screenshots/6043912/porsche.gif" alt="design icon" width="400">
+        </div>
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Web design</h4>
+          <p class="service-item-text">
+            The most modern and high-quality design made at a professional level,– it’s about creating meaningful connections and seamless interactions. With a focus on intuitive navigation and responsive layouts.
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-item-content">
+        <div class="service-icon-box">
+          <img src="https://cdn.cosmos.so/22b6f0da-26ad-415b-afb5-383bec260aa8?format=jpeg" alt="Web development icon" width="400">
+        </div>
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Web development</h4>
+          <p class="service-item-text">
+            High-quality development of sites at the professional level.
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-item-content">
+        <div class="service-icon-box">
+          <img src="https://static.lottiefiles.com/blog_media/9jwGDd1OY0rZHnAIdv7hylsxWfw9O6noZBEtXH6P.gif" alt="mobile app icon" width="400">
+        </div>
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Mobile apps</h4>
+          <p class="service-item-text">
+            Professional development of applications for iOS and Android,ensuring that every feature is carefully crafted and that the user experience is smooth and engaging,Whether it’s developing native apps or cross-platform solutions,for delivering top-tier applications that enhance user engagement and deliver measurable results.
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-item-content">
+        <div class="service-icon-box">
+          <img src="https://cdn.cosmos.so/6d94da38-5013-43ef-8294-9adb2fe3e884?format=jpeg" alt="camera icon" width="400">
+        </div>
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Photography</h4>
+          <p class="service-item-text">
+            I make high-quality photos of any category at a professional level.
+          </p>
+        </div>
+      </div>
+    </li>
+
+  </ul>
+
+  <section class="skill">
+    
+    <h3 class="h3 skills-title">My skills</h3>
+  
+    <ul class="skills-list content-card">
+  
+      <!-- Web design -->
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Web design</h5>
+          <data value="77">77%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 77%;"></div>
+        </div>
+      </li>
+  
+      <!-- Graphic design -->
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Graphic design</h5>
+          <data value="60">60%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 60%;"></div>
+        </div>
+      </li>
+  
+      <!-- JavaScript Skill -->
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">JavaScript</h5>
+          <data value="45">45%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 45%;"></div>
+        </div>
+      </li>
+  
+      <!-- CSS Skill -->
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">CSS</h5>
+          <data value="68">68%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 68%;"></div>
+        </div>
+      </li>
+  
+      <!-- HTML Skill -->
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">HTML</h5>
+          <data value="90">90%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 90%;"></div>
+        </div>
+      </li>
+  
+      <!-- PHP Skill -->
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">PHP</h5>
+          <data value="48">48%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 48%;"></div>
+        </div>
+      </li>
+  
+      <!-- SQL Skill -->
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">SQL</h5>
+          <data value="60">60%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 60%;"></div>
+        </div>
+      </li>
+  
+      <!-- Git Skill -->
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Git</h5>
+          <data value="65">65%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 65%;"></div>
+        </div>
+      </li>
+  
+      <!-- Bootstrap Skill -->
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Bootstrap</h5>
+          <data value="55">55%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 55%;"></div>
+        </div>
+      </li>
+  
+      <!-- Branding -->
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Branding</h5>
+          <data value="70">70%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 70%;"></div>
+        </div>
+      </li>
+  
+      <!-- WordPress -->
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">WordPress</h5>
+          <data value="50">50%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 50%;"></div>
+        </div>
+      </li>
+  
+    </ul>
+  
+  </section>
+
+
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyEYCLnoKMCN1oG4txc450ohSUkIo_SWJQqm5kJmXVe9pISCsYkXHPhh8VpyIwOyuT0ic&usqp=CAU" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Peter Parker</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Akhlaque was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLW96Yhehk7I16YqXEY4SnfvnlK0eOotCAfbWq3oGkjlaq_S2KZ4LjDz81B-l_hUn506g&usqp=CAU" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Harry Potter</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Akhlaque was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM1vbZ4NY97Kx6TN1j5AXWuqSae5dlPGmPdUHy3VXQFwQh4JJGajV6CCPKJ1BG371z6D8&usqp=CAU" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Michael De Santa</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Akhlaque was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="https://staticg.sportskeeda.com/editor/2021/07/e36d4-16267094494023-800.jpg?w=640" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Big Smoke</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Akhlaque was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+    </section>
+
+  
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Akhlaque was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Integral University</h4>
+
+              <span>2023 — 2027(Bachelor)</span>
+
+              <p class="timeline-text">
+                Currently pursuing a Bachelor of Technology (B.Tech) in Computer Science with a focus on software development, programming languages, and data structures.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">K. R. Bose Smark College</h4>
+
+              <span>Intermediate</span>
+
+              <p class="timeline-text">
+                Completed Intermediate studies, where key subjects included computer science, mathematics, and physics, laying the foundation for a career in technology.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Paramount Academy</h4>
+
+              <span>Higher Secondary</span>
+
+              <p class="timeline-text">
+                Finished Higher Secondary education with a focus on general science, which sparked an interest in technology and coding.
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Photography</h4>
+
+              <span>limited Proficient</span>
+
+              <p class="timeline-text">
+                 having basic proficiency in photography, focusing on capturing moments and landscape photography.
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Blog Writing</h4>
+
+              <span>Professional Proficient</span>
+
+              <p class="timeline-text">
+                Extensive experience in writing blogs on technology, programming, and web development topics.
+                .
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>Full Proficient</span>
+
+              <p class="timeline-text">
+                With almost a full proficient web designer, skilled in HTML, CSS, JavaScript, and has experience in developing responsive websites and user interfaces.
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        
+        <!--
+          - clients
+        -->
+
+  
+    
+        <section class="clients">
+  <h3 class="h3 clients-title">Clients</h3>
+
+  <ul class="clients-list has-scrollbar">
+    <li class="clients-item">
+      <a href="#">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXOTi3YW91flTy6rrUyftYXcYscn1epYptKA&s" alt="client logo">
+      </a>
+      <p class="client-name">Franklin Clinton</p> <!-- Added Franklin Clinton -->
+    </li>
+
+    <li class="clients-item">
+      <a href="#">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTojkJ81a9XO645ZbIbrLUAExjNonRkjyGQdw&s" alt="client logo">
+      </a>
+      <p class="client-name">Trevor Philips</p> <!-- Added Trevor Philips -->
+    </li>
+
+    <li class="clients-item">
+      <a href="#">
+        <img src="https://preview.redd.it/c7tc80g6y4p91.png?width=640&crop=smart&auto=webp&s=2c3bf4ce2fdb6e708e203ae961198055e0c899fb" alt="client logo">
+      </a>
+      <p class="client-name">Tommy Vercetti</p> <!-- Added Tommy Vercetti -->
+    </li>
+
+    <li class="clients-item">
+      <a href="#">
+        <img src="https://i.pinimg.com/236x/e5/a2/86/e5a286ac10a17c69676a51020e21d972.jpg" alt="client logo">
+      </a>
+      <p class="client-name">Revueltas Controladas</p> <!-- Added Revueltas Controladas -->
+    </li>
+
+    <li class="clients-item">
+      <a href="#">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmbvG_AAFh3n_QMMD9fEPUWgMGICjdUleQiA&s" alt="client logo">
+      </a>
+      <p class="client-name">Jimmy De Santa</p> <!-- Added Jimmy De Santa -->
+    </li>
+
+    <li class="clients-item">
+      <a href="#">
+        <img src="https://www.giantbomb.com/a/uploads/square_medium/5/56742/2542705-copy%20of%20v_lester_2880x1800.jpg" alt="client logo">
+      </a>
+      <p class="client-name">Lester Crest</p> <!-- Added Lester Crest -->
+    </li>
+  </ul>
+</section>
+
+          
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://www.gate39media.com/web-development/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://prioritypixels.co.uk/wp-content/uploads/2022/02/best-financial-industry-websites.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://en.wikipedia.org/wiki/Web_design">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://img.freepik.com/fotos-gratis/conceitos-de-design-web-com-fundo-borrado_1134-82.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://www.brawlhalla.com/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQhMtoDM-BgSVRZysPA-ZHvOLt8hJF5uCsvt7NW07IsFTLqmnwhPKu4_iY5YWzfC_3a25pQ" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://workspace.google.com/marketplace/category/productivity/task-management">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHds9LFZNeDyd0p0nvQOwDQvGvo4Aua0sEsw&s" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://www.conferencealerts.in/delhi/design">
+
+                <figure class="blog-banner-box">
+                  <img src="https://media.designrush.com/articles/724014/conversions/10-Best-Design-Conferences-for-2025-preview.jpg" alt="Design conferences in 2025" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2025</h3>
+
+                  <p class="blog-text">
+                    Conference Alerts is a reputed and globally recognised platform to find upcoming Design conferences in Delhi for 2025.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.manypixels.co/blog/brand-design/popular-fonts">
+
+                <figure class="blog-banner-box">
+                  <img src="https://www.northeastshop.com/cdn/shop/products/5_e58b77c6-75fc-42b6-bed9-b499f1562845.jpg?v=1608177118&width=1920" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 20, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Selection of hand-picked free and premium fonts for various design purposes. Including serif, sans serif, script, display, brush and grotesque.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+                <li class="blog-post-item">
+                  <a href="https://www.toools.design/ai-tools-for-designers-and-marketing">
+            
+                    <figure class="blog-banner-box">
+                      <img src="https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg" alt="Best AI Tools for Designers" loading="lazy">
+                    </figure>
+            
+                    <div class="blog-content">
+            
+                      <div class="blog-meta">
+                        <p class="blog-category">AI Tools</p>
+            
+                        <span class="dot"></span>
+            
+                        <time datetime="2025-03-14">Mar 14, 2025</time>
+                      </div>
+            
+                      <h3 class="h3 blog-item-title">Best AI Tools for Designers</h3>
+            
+                      <p class="blog-text">
+                        A curated list of AI-powered tools that help designers work smarter, from image generation to UI automation.
+                      </p>
+            
+                    </div>
+            
+                  </a>
+                </li>
+      
+                <li class="blog-post-item">
+                  <a href="https://www.litmusbranding.com/blog/impact-of-ai-in-graphic-design/">
+            
+                    <figure class="blog-banner-box">
+                      <img src="https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg" alt="How AI is Changing Graphic Design" loading="lazy">
+                    </figure>
+            
+                    <div class="blog-content">
+            
+                      <div class="blog-meta">
+                        <p class="blog-category">AI & Creativity</p>
+            
+                        <span class="dot"></span>
+            
+                        <time datetime="2025-03-14">Mar 04, 2025</time>
+                      </div>
+            
+                      <h3 class="h3 blog-item-title">How AI is Changing Graphic Design</h3>
+            
+                      <p class="blog-text">
+                        Learn how AI is revolutionizing graphic design with automation, generative art, and smart design suggestions.
+                      </p>
+            
+                    </div>
+            
+                  </a>
+                </li>
+
+    <li class="blog-post-item">
+      <a href="https://www.verywellmind.com/color-psychology-2795824">
+
+        <figure class="blog-banner-box">
+          <img src="https://cdn.cosmos.so/3a2fb341-6af8-4c2a-800b-283a1915112e?format=jpeg" alt="Psychology of Colors in Design" loading="lazy">
+        </figure>
+
+        <div class="blog-content">
+
+          <div class="blog-meta">
+            <p class="blog-category">Design</p>
+
+            <span class="dot"></span>
+
+            <time datetime="2025-03-14">Mar 06, 2025</time>
+          </div>
+
+          <h3 class="h3 blog-item-title">Psychology of Colors in Design</h3>
+
+          <p class="blog-text">
+            Explore how different colors influence emotions, brand perception, and user experience in design.
+          </p>
+
+        </div>
+
+      </a>
+    </li>
+
+    <li class="blog-post-item">
+      <a href="https://venngage.com/blog/ai-and-design-trends/">
+
+        <figure class="blog-banner-box">
+          <img src="https://cdn.cosmos.so/ee60cf55-f7a1-454b-a76a-1bb158f32692.mp4" alt="AI Trends in Design" loading="lazy">
+        </figure>
+
+        <div class="blog-content">
+
+          <div class="blog-meta">
+            <p class="blog-category">AI & Design</p>
+
+            <span class="dot"></span>
+
+            <time datetime="2025-03-14">Mar 14, 2025</time>
+          </div>
+
+          <h3 class="h3 blog-item-title">AI Trends in Design</h3>
+
+          <p class="blog-text">
+            Discover the latest AI-driven design trends shaping the future of creativity, automation, and personalization.
+          </p>
+
+        </div>
+
+      </a>
+    </li>
+
+    <li class="blog-post-item">
+      <a href="https://www.cio.com/article/230935/hiring-the-most-in-demand-tech-jobs-for-2021.html">
+
+        <figure class="blog-banner-box">
+          <img src="https://cdn.cosmos.so/f7c7a8ff-0957-4e9b-84b3-f061bc8306d8?format=jpeg" alt="Top IT Jobs in 2025" loading="lazy">
+        </figure>
+
+        <div class="blog-content">
+
+          <div class="blog-meta">
+            <p class="blog-category">IT Careers</p>
+
+            <span class="dot"></span>
+
+            <time datetime="2025-03-14">Mar 08, 2025</time>
+          </div>
+
+          <h3 class="h3 blog-item-title">Top IT Jobs in 2025</h3>
+
+          <p class="blog-text">
+            Explore the most in-demand IT jobs and career paths for 2025, including AI, cybersecurity, and cloud computing.
+          </p>
+
+        </div>
+
+      </a>
+    </li>
+
+    <li class="blog-post-item">
+      <a href="https://www.edx.org/become/how-to-become-a-data-scientist">
+
+        <figure class="blog-banner-box">
+          <img src="https://cdn.cosmos.so/499ddb3b-57cf-4c07-996c-f797fadf64ab.mp4" alt="How to Become a Data Scientist" loading="lazy">
+        </figure>
+
+        <div class="blog-content">
+
+          <div class="blog-meta">
+            <p class="blog-category">Career Guide</p>
+
+            <span class="dot"></span>
+
+            <time datetime="2025-03-14">Mar 03, 2025</time>
+          </div>
+
+          <h3 class="h3 blog-item-title">How to Become a Data Scientist</h3>
+
+          <p class="blog-text">
+            A step-by-step guide to becoming a data scientist, including essential skills, courses, and job prospects.
+          </p>
+
+        </div>
+
+      </a>
+    </li>
+
+    <li class="blog-post-item">
+      <a href="https://www.geeksforgeeks.org/full-stack-developer-roadmap/">
+
+        <figure class="blog-banner-box">
+          <img src="https://cdn.cosmos.so/1a1a81e8-ad74-406c-bfee-92b767089268?format=jpeg" alt="Full Stack Developer Roadmap" loading="lazy">
+        </figure>
+
+        <div class="blog-content">
+
+          <div class="blog-meta">
+            <p class="blog-category">Web Development</p>
+
+            <span class="dot"></span>
+
+            <time datetime="2025-03-14">Mar 12, 2025</time>
+          </div>
+
+          <h3 class="h3 blog-item-title">Full Stack Developer Roadmap</h3>
+
+          <p class="blog-text">
+            Learn the essential technologies and skills to become a full-stack developer in 2025.
+          </p>
+
+        </div>
+
+      </a>
+    </li>
+
+    <li class="blog-post-item">
+      <a href="https://www.cyberseek.org/pathway.html">
+
+        <figure class="blog-banner-box">
+          <img src="https://cdn.cosmos.so/fa86928b-894c-4a18-9806-3fd8762d74a4.mp4" alt="Cybersecurity Career Guide" loading="lazy">
+        </figure>
+
+        <div class="blog-content">
+
+          <div class="blog-meta">
+            <p class="blog-category">Cybersecurity</p>
+
+            <span class="dot"></span>
+
+            <time datetime="2025-03-14">Mar 11, 2025</time>
+          </div>
+
+          <h3 class="h3 blog-item-title">Cybersecurity Career Guide</h3>
+
+          <p class="blog-text">
+            Explore the cybersecurity field, job roles, certifications, and how to kickstart your career in 2025.
+          </p>
+
+        </div>
+
+      </a>
+    </li>
+
+    <li class="blog-post-item">
+              <a href="https://www.anothermag.com/design-digest">
+
+                <figure class="blog-banner-box">
+                  <img src="https://www.slanted.de/wp-content/uploads/2017/04/berlin-design-digest-slanted-doppelseiten_04.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 27, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    A comprehensive guide for IT, SaaS, and e-Com professionals seeking to repurpose their skills for a rewarding new career.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://medium.muz.li/ui-interactions-of-the-week-316-7a2534442f24">
+
+                <figure class="blog-banner-box">
+                  <img src="https://miro.medium.com/v2/resize:fit:1400/1*S6CLyBFEUxvoLiR2B71wAw.jpeg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 13, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    All the design inspiration you need. It's like crack for designers. And good for you too! #design #ux #ui #inspiration #creativity #art #startup.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://lollypop.design/blog/2019/march/the-forgotten-art-of-spacing/">
+
+                <figure class="blog-banner-box">
+                  <img src="https://i0.wp.com/www.animatedspirit.com/wp-content/uploads/2020/06/DalSc15sm95.jpg?resize=740%2C509" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 22, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Motion design is all about mastering 'how one object moves from point A to point B'. Let's rediscover the forgotten art of spacing!.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+     
+                <li class="blog-post-item">
+                  <a href="https://www.ibm.com/think/topics/software-development">
+            
+                    <figure class="blog-banner-box">
+                      <img src="https://cdn.cosmos.so/ce1fbbe2-d433-4422-9691-37836a7f0eac.mp4" alt="Software Engineering Career Path" loading="lazy">
+                    </figure>
+            
+                    <div class="blog-content">
+            
+                      <div class="blog-meta">
+                        <p class="blog-category">Software Development</p>
+            
+                        <span class="dot"></span>
+            
+                        <time datetime="2025-03-14">Feb 21, 2025</time>
+                      </div>
+            
+                      <h3 class="h3 blog-item-title">Software Engineering Career Path</h3>
+            
+                      <p class="blog-text">
+                        A guide to becoming a software engineer, including essential programming languages, frameworks, and job opportunities.
+                      </p>
+            
+                    </div>
+            
+                  </a>
+                </li>
+            
+                <li class="blog-post-item">
+                  <a href="https://www.geeksforgeeks.org/cloud-computing/">
+            
+                    <figure class="blog-banner-box">
+                      <img src="https://cdnl.iconscout.com/lottie/premium/preview-watermark/cloud-computing-animation-download-in-lottie-json-gif-static-svg-file-formats--hosting-technology-server-pack-appliances-animations-3645006.mp4" alt="Cloud Computing Careers" loading="lazy">
+                    </figure>
+            
+                    <div class="blog-content">
+            
+                      <div class="blog-meta">
+                        <p class="blog-category">Cloud Computing</p>
+            
+                        <span class="dot"></span>
+            
+                        <time datetime="2025-03-14">Mar 02, 2025</time>
+                      </div>
+            
+                      <h3 class="h3 blog-item-title">Cloud Computing Careers</h3>
+            
+                      <p class="blog-text">
+                        Discover high-paying cloud computing careers, certifications, and skills required to succeed in this field.
+                      </p>
+            
+                    </div>
+            
+                  </a>
+                </li>
+            
+                <li class="blog-post-item">
+                  <a href="https://www.iu.org/blog/career-guides/career-in-ai/">
+            
+                    <figure class="blog-banner-box">
+                      <img src="https://cdn.cosmos.so/f5318063-598f-4d1f-9256-176d61008479.mp4" alt="Artificial Intelligence Career Path" loading="lazy">
+                    </figure>
+            
+                    <div class="blog-content">
+            
+                      <div class="blog-meta">
+                        <p class="blog-category">AI & Machine Learning</p>
+            
+                        <span class="dot"></span>
+            
+                        <time datetime="2025-03-14">Mar 14, 2025</time>
+                      </div>
+            
+                      <h3 class="h3 blog-item-title">Artificial Intelligence Career Path</h3>
+            
+                      <p class="blog-text">
+                        Learn how to start a career in artificial intelligence, including key skills, programming languages, and job roles.
+                      </p>
+            
+                    </div>
+            
+                  </a>
+                </li>
+            
+            </li>
+            
+
+            <li class="blog-post-item">
+              <a href="https://forum.freecodecamp.org/t/step-79-responsive-web-design-cafe-menu/512117">
+
+                <figure class="blog-banner-box">
+                  <img src="https://cdn.dribbble.com/userupload/16120157/file/original-b8e5905efa7e3377a2efa234e8f1bd2d.jpg?resize=400x0" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 16, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Web Design #79</h3>
+
+                  <p class="blog-text">
+                    Mastering the Art of Internet and Web Designing: Crafting Digital Experiences That Captivate. The Internet has revolutionized the way we communicate, consume ...
+
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.556392113393!2d80.9532!3d26.9176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957ba9072d4c3%3A0xc41a39524a8f3b70!2sTedhi%20Pulia%2C%20Lucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1741806657206!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              " 
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
